@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header designing */
+header nav{
+    height: 15vh;
+    background-color: black;
+}
+nav .navbar .nav1{
+    text-align: center;
+}
+#home:hover{
+    color: lightcoral;
+}
+#github:hover{
+    color: red;
+}
+nav .navbar .nav1 ul li{
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+    border: 2px solid red;
+    margin: .5rem 0rem 0rem 0rem;
+    cursor: pointer;
+}
+/* article designing */
+article section{
+    text-align: center;
+    border: 2px solid red;
+    padding: 0rem 0rem 1rem 0rem;
+    /* height: 100vh; */
+}
+article section .sec1 h1:hover{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    transition: all 2s ease-in-out .2s;
+    animation: header 3s ease-in-out .2s infinite forwards ;
+}
+@keyframes header{
+    10%{
+        background-color: lightblue;
+        color: darkblue;
+        border-radius: 1rem;
+        font-size: 1rem;
+        font-style: italic;
+    }
+    30%{
+        background-color: lightgoldenrodyellow;
+        color: darkgoldenrod;
+        border-radius: 2rem;
+        font-size: 2rem;
+        font-style: normal;
+    }
+    50%{
+        background-color: lightsalmon;
+        color: darkmagenta;
+        border-radius: 3rem;
+        font-size: 2rem;
+        font-style: italic;
+    }
+    70%{
+        background-color: darkgreen;
+        color: lightsalmon;
+        border-radius: 4rem;
+        font-size:2rem;
+        font-style: normal;
+    }
+    90%{
+        background-color: darkred;
+        color: lightseagreen;
+        border-radius: 4rem;
+        font-style: italic;
+    }
+}
+article section .sec1 h1{
+    /* border: 2px solid red; */
+    /* background-color:deepskyblue; */
+    display: inline-block;
+    padding: 1rem 4rem 1rem 4rem;
+    width: 50%;
+}
+article section .sec2{
+    border: 2px solid  green;
+    display: inline-block;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: rgb(245, 239, 239);
+    width: 70%;
+}
+article section .sec2 img{
+    width: 10rem;
+    /* border: 2px solid red; */
+    float: right;
+
+}
+
